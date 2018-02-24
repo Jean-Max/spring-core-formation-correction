@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.viseo.formation</groupId>
-	<artifactId>mp3-player-app</artifactId>
+	<artifactId>hello-world-app</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0.0-SNAPSHOT</version>
-	<name>mp3-player-app</name>
+	<name>hello-world-app</name>
 
 	<properties>
 		<spring.version>4.3.14.RELEASE</spring.version>

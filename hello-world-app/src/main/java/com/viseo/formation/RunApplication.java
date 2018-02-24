@@ -6,8 +6,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class RunApplication {
 
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("SpringBeans.xml");
-        HelloWorld obj = (HelloWorld) context.getBean("helloBean");
-        obj.sayHello();
+        ApplicationContext context = new ClassPathXmlApplicationContext("application-context.xml");
+        HelloWorld helloWorldBean = (HelloWorld) context.getBean("helloBean");
+        helloWorldBean.sayHello();
     }
 }

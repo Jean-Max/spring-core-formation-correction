@@ -12,6 +12,6 @@ public class HelloWorld {
 	}
 
 	public void sayHello() {
-		System.out.println("Spring says hello to you " + name + "!");
+		System.out.println("Spring says hello to: " + this.name + "!");
 	}
 }

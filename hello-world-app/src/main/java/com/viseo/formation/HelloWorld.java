@@ -1,6 +1,17 @@
 package com.viseo.formation;
 
+/**
+ * Spring bean
+ */
 public class HelloWorld {
 
-	// Implement your first POJO here ;-)
+	private String name;
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void sayHello() {
+		System.out.println("Spring says hello to: " + this.name + "!");
+	}
 }
